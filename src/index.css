@@ -48,7 +48,7 @@ p {
   position: relative;
 }
 .header{
-  background-image: url('src/assets/images/bg-header-desktop.svg');
+  background-image: url('/images/bg-header-desktop.svg');
   background-color: hsl(180, 29%, 50%);
   height: 8rem;
   /* position: relative; */
