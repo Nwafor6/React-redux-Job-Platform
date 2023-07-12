@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  /* overflow-x: hidden; */
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  background-color: hsl(180, 52%, 96%);
+  color: #333;
+  font-size: 10px;
+  
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 15px;
+  margin-bottom: 15px;
+  margin-top: 6px;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+/* Home styling */
+.section-body{
+  position: relative;
+}
+.header{
+  background-image: url('src/assets/images/bg-header-desktop.svg');
+  background-color: hsl(180, 29%, 50%);
+  height: 8rem;
+  /* position: relative; */
+}
+.container{
+  position: relative;
+  top: -34px;
+}
+.filter-holder{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 15px 30px 15px 30px;
+
+}
+.filter-holder .clear{
+  font-size: 20px;
+}
+.filter-holder .clear:active{
+  cursor:pointer;
+  color:hsl(180deg 74.4% 51.36%);
+}
+.filter-holder .clear:hover{
+  cursor:pointer;
+}
+.filter-main{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.filter-body{
+  display: flex;
+  gap: 2px;
+}
+.filter-main .filter-title{
+  color: hsl(180deg 74.4% 51.36%);
+  font-weight: bold;
+  font-size: 13px;
+  background-color: hsl(180, 31%, 95%);
+  border-radius: 10px;
+  padding: 9px 15px 9px 15px;
+  width: 100px;
+  height: 32px;
+}
+.filter-main .filter-close .bi-x-square-fill{
+  font-size: 30px;
+  line-height: 37px;
+
+}
+
+/* Job list section */
+.main-body{
+  margin-top: 30px;
+}
+.main-item{
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  margin-top: 40px;
+  padding: 9px 15px 9px 15px;
+}
+.job{
+  display: flex;
+  gap: 13px;
+  align-items: center;
+}
+.job img{
+  width: 60px;
+}
+.skills{
+  display: flex;
+  flex-wrap: wrap;
+}
+.skills span{
+  color: hsl(180deg 74.4% 51.36%);
+  font-weight: bold;
+  background-color: hsl(180, 31%, 95%);
+  border-radius: 10px;
+  padding: 0 10px 0 10px;
+  margin-top: 6px;
+  margin-right: 10px;
+}
+.skills .item:active{
+  cursor: pointer;
+  background-color: #007bff;
+  
+}
+.skills .item:hover{
+  cursor: pointer;
+  
+}
+
+.company-name{
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.company-name div .name2, .name3{
+  color: white;
+  font-weight: bold;
+  background-color: hsl(180, 14%, 20%);
+  border-radius: 10px;
+  gap: 5px;
+  padding: 0 6px 0 6px;
+}
+.company-name div .name2{
+  background-color: hsl(180deg 74.4% 51.36%);
+  color: white;
+}
+.filter-holder{
+  visibility: hidden;
+}
