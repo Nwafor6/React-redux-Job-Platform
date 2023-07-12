@@ -37,4 +37,4 @@ Contributions are welcome! If you find any issues or have suggestions for improv
 - This project was inspired by my zeal to learn react, redux and how to use it in modern web applications.
 - Thanks to the React community for providing helpful documentation and tutorials.
 
-Feel free to modify and expand on this template to provide more information specific to your Todo application.
+Feel free to modify and expand on this template to provide more information specific to your react application.
